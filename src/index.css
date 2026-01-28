@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  caret-color: transparent;
 }
 
 body {
@@ -68,6 +69,7 @@ header p {
   border-bottom-right-radius: 0;
   padding: 0.25rem;
   color: #d1f0ec;
+  caret-color: white;
 }
 
 #player button {

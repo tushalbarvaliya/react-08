@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import { flushSync } from "react-dom";
 
 export default function Player() {
   const inputPlayer = useRef();
@@ -12,10 +11,10 @@ export default function Player() {
   return (
     <section id="player">
       <h2>Welcome {playerName ? playerName :'unknown entity'}</h2>
-      <p>
+      <div>
         <input ref={inputPlayer} type="text" />
         <button onClick={onSubmit}>Set Name</button>
-      </p>
+      </div>
     </section>
   );
 }
